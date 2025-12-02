@@ -220,7 +220,88 @@ Gamification
 </div>
 <img src="images/Groups/GroupElement1.png" width="300px" height="300px" alt="">
 </section>
+<section id="SkillDevelopment" class="mt-10 pt-8 px-2">
+<div class="flex flex-wrap md:flex-nowrap md:px-16 md:m-10 my-10">
+    <div class="md:w-1/2 w-full">
+<p class="text-[#F98149]  font-medium text-md tracking-[0.3em]">WHO CAN JOIN</p>
+<div class=" text-5xl mt-5 font-bold text-[#003F7D]">
+    Skill Development Schemes For All
+</div>
+<!-- Skills -->
+ <div>
+<div class="container flex">
+        <!-- Item 1 -->
+         <div class="md:w-1/2 flex flex-wrap md:flex-nowrap mt-5 items-center gap-2">
+            <div class="text-[#003F7D] font-bold">01</div>
+            <div class=""><img src="images/Groups/Element2.png" class="ms-5" width="80px" height="80px" alt="">
+        Colleges/Universities
+             </div>
+         </div>
+        <!-- Item 2 -->
+         <div class="md:w-1/2 w-full flex flex-wrap md:flex-nowrap mt-5 items-center gap-2">
+            <div class="text-[#003F7D] font-bold">02</div>
+            <div class="w-1/2 text-center"><img src="images/Groups/Element3.png" class="ms-5" width="70px" height="50px" alt="">
+        Individuals/Working Professionals
 
+             </div>
+         </div>
+</div>
+<div class="container flex">
+        <!-- Item 3 -->
+         <div class="md:w-1/2 w-full flex flex-wrap md:flex-nowrap mt-5 items-center gap-2">
+            <div class="text-[#003F7D] font-bold">01</div>
+            <div class=""><img src="Images/Groups/Element4.png" class="ms-5" width="80px" height="80px" alt="">
+       Startups
+             </div>
+         </div>
+        <!-- Item 4 -->
+         <div class="md:w-1/2 w-full flex flex-wrap md:flex-nowrap mt-5 items-center gap-2">
+            <div class="text-[#003F7D] font-bold">02</div>
+            <div class="w-1/2 text-center"><img src="images/Groups/Element5.png" class="ms-5" width="70px" height="50px" alt="">
+        Corporates
+
+             </div>
+         </div>
+</div>
+</div>
+    </div>
+    
+    <!-- Right Side -->
+    <div class="md:w-1/2 w-full">
+        <img src="images/Frames/Frame5.png" alt="">
+    </div>
+</div>
+</section>
+
+<section id="Works" class="md:m-10 md:my-20 md:pt-10 px-2">
+
+
+<div class="bg-[#003F7D] rounded-2xl px-4 py-8 relative">
+  <!-- Orange label positioned above -->
+  <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-[#F98149] text-white text-center text-xl font-bold px-4 py-2 rounded w-64">
+    How It Works
+  </div>
+
+  <!-- Image below -->
+  <img src="images/Groups/Element6.png" class="p-5 md:pt-20 my-5" alt="">
+</div>
+<div style="top: -50px;" class="relative ps-10">
+    <img src="images/Groups/GroupElement2.png"  width="100px" height="100px" alt="">
+</div>
+</section>
+
+<section id="Courses" class="md:m-10 md:my-10 " >
+  <h1 class="text-4xl font-bold text-center text-[#003F7D]">Popular <span class="text-[#F98149]"> Courses </span></h1>
+
+<div class="my-10 container flex flex-wrap  ">
+  <x-courseItem />
+</div>
+<div class="w-64 mx-auto mt-2">
+  <button class="bg-[#003F7D] px-14 py-1 hover:bg-[#0151a0] duration-150 text-white rounded-lg"><a href="">View All Courses</a></button>
+</div>
+</section>
+
+<x-footer></x-footer>
 <script>
 let currentSlide = 0;
 const slider = document.getElementById("slider");
@@ -254,5 +335,4 @@ function autoSlide() {
 setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
 updateSlider();
 </script>
-
 </x-app-layout>
